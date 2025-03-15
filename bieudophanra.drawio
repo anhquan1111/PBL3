@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="19d8dcba-68ad-dc05-1034-9cf7b2a963f6">
     <mxGraphModel dx="1235" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="yoJNtJ-4dLOCvJawa3UI-18" value="Hủy Vé &amp;amp; Hoàn Tiền" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1340" y="330" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yoJNtJ-4dLOCvJawa3UI-19" value="Thêm, Sửa, Xóa Thông Tin Xe" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=14;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="yoJNtJ-4dLOCvJawa3UI-19" value="Thêm, ,Xóa, Cập Nhật Thông Tin Xe" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1430" y="330" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yoJNtJ-4dLOCvJawa3UI-20" value="Quản Lý Xe" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;strokeWidth=2;fontFamily=Verdana;align=center;fontSize=14;fontStyle=1" parent="1" vertex="1">
@@ -103,14 +103,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yoJNtJ-4dLOCvJawa3UI-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;endArrow=block;endFill=1;strokeColor=#4D4D4D;strokeWidth=2;fontFamily=Verdana;fontSize=14;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6257edae8c83ed4a-1" edge="1">
+        <mxCell id="yoJNtJ-4dLOCvJawa3UI-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;endArrow=block;endFill=1;strokeColor=#4D4D4D;strokeWidth=2;fontFamily=Verdana;fontSize=14;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6257edae8c83ed4a-1" edge="1" target="yoJNtJ-4dLOCvJawa3UI-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1440" y="160" as="sourcePoint" />
             <mxPoint x="1490" y="220" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1250" y="190" />
-              <mxPoint x="1490" y="190" />
-              <mxPoint x="1490" y="220" />
+              <mxPoint x="1460" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -278,7 +277,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yoJNtJ-4dLOCvJawa3UI-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;endArrow=block;endFill=1;strokeColor=#4D4D4D;strokeWidth=2;fontFamily=Verdana;fontSize=14;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="yoJNtJ-4dLOCvJawa3UI-19" source="yoJNtJ-4dLOCvJawa3UI-20">
+        <mxCell id="yoJNtJ-4dLOCvJawa3UI-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;endArrow=block;endFill=1;strokeColor=#4D4D4D;strokeWidth=2;fontFamily=Verdana;fontSize=14;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yoJNtJ-4dLOCvJawa3UI-20" target="yoJNtJ-4dLOCvJawa3UI-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1484.99" y="270" as="sourcePoint" />
             <mxPoint x="1449.99" y="330" as="targetPoint" />
