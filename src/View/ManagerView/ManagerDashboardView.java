@@ -1,4 +1,4 @@
-package View.AdminView;
+package View.ManagerView;
 
 import java.awt.EventQueue;
 
@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-public class AdminDashboardView extends JFrame {
+public class ManagerDashboardView extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -18,7 +18,7 @@ public class AdminDashboardView extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					AdminDashboardView frame = new AdminDashboardView();
+					ManagerDashboardView frame = new ManagerDashboardView();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -30,7 +30,7 @@ public class AdminDashboardView extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public AdminDashboardView() {
+	public ManagerDashboardView() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 898, 708);
 		contentPane = new JPanel();
