@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.awt.BorderLayout;
+// import java.awt.BorderLayout;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
@@ -78,8 +78,12 @@ public class MainView extends JFrame {
 
         // Tạo JLabel để hiển thị ảnh và đặt vị trí, kích thước
         lblImage = new JLabel();
-        lblImage.setBounds(0, 10, 1086, 374); // Đặt vị trí cho ảnh
+        lblImage.setBounds(10, 10, 1076, 283); // Đặt vị trí cho ảnh
         contentPane.add(lblImage);
+
+        JPanel panel = new JPanel();
+        panel.setBounds(79, 331, 937, 203);
+        contentPane.add(panel);
 
         // Đọc ảnh từ resources (ảnh phải nằm trong thư mục src)
         URL url = MainView.class.getResource("/anhNenXe.jpg");
